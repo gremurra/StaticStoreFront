@@ -7,7 +7,8 @@
     <link rel="stylesheet" type ="text/css" href="style.css">
 </head>
 <body>
-    <header>
+    <div class="header">
+        <div class="logoandsocial">
         <!--Social menu-->
         <nav>
             <ul>
@@ -18,105 +19,106 @@
                 <li><a href="#"><img src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\yelp-logo-27.png" alt="Yelp" class="socialMenu"></a></li>
             </ul>
         </nav>
-        <!--Navigation menu-->
-        <h1>Oodles</h1>
-        <h5>of</h5>
-        <h1>Doodles</h1>
-        <nav>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Meet Our "Paw"rents</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><input type="search" id="search" placeholder="Search" </li>
+        <!--Business Logo-->
+            <div class="logo">
+                <h1>Oodles</h1>
+                <h5>of</h5>
+                <h1>Doodles</h1>
+            </div>
+        </div>
+        <!--Navigation Menu-->
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Meet Our "Paw"rents</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><input type="search" id="search" placeholder="Search" </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="main">
+        <div class="sidebars">
+            <div class="waitlist">
+                    <!--Waitlist Text-->
+                    <h2>Join Our Waitlist</h2>
+                    <p>Sign up for our waitlist! We have several litters coming in the next few months. Sign up now to add your name to the list!</p>
+                <div class="input">
+                    <input type="text" class="button" id="email" placeholder="Email Address">
+                    <button class="button">Submit</button>
+                </div>
+            </div>
+            <div class="blog">
+                    <!--Blog Text-->
+                    <h2>Our Blog</h2>
+                    <p>Puppy kitty ipsum dolor sit good dog foot stick canary. Teeth Mittens grooming vaccine walk swimming nest good boy furry tongue heel furry treats fish. Cage run fast kitten dinnertime ball run foot park fleas throw house train licks stick dinnertime window. Yawn litter fish yawn toy pet gate throw Buddy kitty wag tail ball groom crate ferret heel wet nose Rover toys pet supplies. Bird Food treats tongue lick teeth ferret litter box slobbery litter box crate bird small animals yawn small animals shake slobber gimme five toys polydactyl meow. Turtle cage lazy cat foot lazy cat groom canary window tooth brush bedding lazy cat pet supplies turtle water dog shake pet supplies kitty.</p>
+            </div>
+        </div>
+
+        <div class="puppies">
+            <!--Available Puppies-->
+            <h1>Available Puppies</h1>
+            <!--Three different Breeds, three puppies each-->
+            <div class="puppyGroup">
+                <h2>Goldendoodles</h2>
+                    <div class="goldendoodle">
+                        <h2>PuppyName</h2>
+                        <img href="#" src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\goldendoodleA.PNG" class="puppyType" alt="puppy">
+                    </div>
+                    <div class="goldendoodle">
+                        <h2>PuppyName</h2>
+                        <img href="#" src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\goldendoodleB.PNG" class="puppyType" alt="puppy">
+                    </div>
+                    <div class="goldendoodle">
+                        <h2>PuppyName</h2>
+                        <img href="#" src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\goldendoodleC.PNG" class="puppyType" alt="puppy">
+                    </div>
+            </div>
+            <div class="puppyGroup">
+                <h2>Aussiedoodles</h2>
+                    <div class="aussiedoodle">
+                        <h2>PuppyName</h2>
+                        <img href="#" src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\aussiedoodleA.jpg" class="puppyType" alt="puppy">
+                    </div>
+                    <div class="aussiedoodle">
+                        <h2>PuppyName</h2>
+                        <img href="#" src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\aussiedoodleB.jpg" class="puppyType" alt="puppy">
+                    </div>
+                    <div class="aussiedoodle">
+                        <h2>PuppyName</h2>
+                        <img href="#" src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\aussiedoodleC.jpg" class="puppyType" alt="puppy">
+                    </div>
+            </div>
+            <div class="puppygroup">
+                <h2>Bernedoodles</h2>
+                    <div class="bernedoodle">
+                        <h2>PuppyName</h2>
+                        <img href="#" src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\bernadoodleB.jpg" class="puppyType" alt="puppy">
+                    </div>
+                    <div class="bernedoodle">
+                        <h2>PuppyName</h2>
+                        <img href="#" src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\bernadoodleC.jpg" class="puppyType" alt="puppy">
+                    </div>
+                    <div class="bernedoodle">
+                        <h2>PuppyName</h2>
+                        <img href="#" src="C:\Users\Rick\Desktop\ElevenFiftyProjects\SD48 Gold\StaticStoreFront\assets\bernedoodleA.jpeg" class="puppyType" alt="puppy">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+            <!--Legal items, footer, etc-->
+            <span>&copy;2020</span>
+            <ul id="websiteFooter">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li>Website by Murray</li>
             </ul>
-        </nav>
-    </header>
-    <section id="waitlist">
-        <!--Waitlist Text-->
-        <h2>Join Our Waitlist</h2>
-        <p>Sign up for our waitlist! We have several litters coming in the next few months. Sign up now to add your name to the list!</p>
-
-        <div class="input">
-            <input type="text" class="button" id="email" placeholder="Email Address">
-            <button id="submit">Submit</button>
-        </div>
-    </section>
-    <section id="blog">
-        <!--Blog Text-->
-        <h2>Our Blog</h2>
-        <p>Puppy kitty ipsum dolor sit good dog foot stick canary. Teeth Mittens grooming vaccine walk swimming nest good boy furry tongue heel furry treats fish. Cage run fast kitten dinnertime ball run foot park fleas throw house train licks stick dinnertime window. Yawn litter fish yawn toy pet gate throw Buddy kitty wag tail ball groom crate ferret heel wet nose Rover toys pet supplies. Bird Food treats tongue lick teeth ferret litter box slobbery litter box crate bird small animals yawn small animals shake slobber gimme five toys polydactyl meow. Turtle cage lazy cat foot lazy cat groom canary window tooth brush bedding lazy cat pet supplies turtle water dog shake pet supplies kitty.</p>
-
-    </section>
-    <section id="main">
-        <!--Available Puppies-->
-        <h1>Available Puppies</h1>
-        <!--Four different litters-->
-        <div class="panel">
-            <h2>TypeOfDoodle</h2>
-            <img href="#" src="" class="puppyType" alt="puppy">
-            <h4>NameofParents</h4>
-            <p>Quick blurb on type of puppy</p>
-        </div>
-        <div class="panel">
-            <h2>TypeOfDoodle</h2>
-            <img href="#" src="" class="puppyType" alt="puppy">
-            <h4>NameofParents</h4>
-            <p>Quick blurb on type of puppy</p>
-        </div>
-        <div class="panel">
-            <h2>TypeOfDoodle</h2>
-            <img href="#" src="" class="puppyType" alt="puppy">
-            <h4>NameofParents</h4>
-            <p>Quick blurb on type of puppy</p>
-        </div>
-        <div class="panel">
-            <h2>TypeOfDoodle</h2>
-            <img href="#" src="" class="puppyType" alt="puppy">
-            <h4>NameofParents</h4>
-            <p>Quick blurb on type of puppy</p>
-        </div>
-        <div class="panel">
-            <h2>TypeOfDoodle</h2>
-            <img href="#" src="" class="puppyType" alt="puppy">
-            <h4>NameofParents</h4>
-            <p>Quick blurb on type of puppy</p>
-        </div>
-        <div class="panel">
-            <h2>TypeOfDoodle</h2>
-            <img href="#" src="" class="puppyType" alt="puppy">
-            <h4>NameofParents</h4>
-            <p>Quick blurb on type of puppy</p>
-        </div>
-        <div class="panel">
-            <h2>TypeOfDoodle</h2>
-            <img href="#" src="" class="puppyType" alt="puppy">
-            <h4>NameofParents</h4>
-            <p>Quick blurb on type of puppy</p>
-        </div>
-        <div class="panel">
-            <h2>TypeOfDoodle</h2>
-            <img href="#" src="" class="puppyType" alt="puppy">
-            <h4>NameofParents</h4>
-            <p>Quick blurb on type of puppy</p>
-        </div>
-        <div class="panel">
-            <h2>TypeOfDoodle</h2>
-            <img href="#" src="" class="puppyType" alt="puppy">
-            <h4>NameofParents</h4>
-            <p>Quick blurb on type of puppy</p>
-        <!--still need to personalize each part of the panel-->
-        </div>
-    </section>
-    <footer>
-        <!--Legal items, footer, etc-->
-        <span>&copy;2020</span>
-        <ul id="websiteFooter">
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li>Website by Murray</li>
-        </ul>
-    </footer>
+    </div>
+    
 </body>
 </html>
