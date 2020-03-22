@@ -96,7 +96,7 @@ p {
     position: relative;
     width: 30%;
     height: 100%;
-    background-color: rgba(252,251,243,0.7);
+    background-color: rgba(252, 251, 243, 0.541);
 	margin: 0px;
     padding: 10px;
     border-radius: 5em;
@@ -151,7 +151,7 @@ p {
     position: relative;
     width: 65%;
     height: 100%;
-    background-color: rgba(252,251,243,0.7);
+    background-color: rgba(252, 251, 243, 0.541);
 	margin: 0 0 2.0em;
 	padding: 1.5em  0 2.0em 1.5em;
 	display: inline-block;
@@ -231,8 +231,9 @@ p {
     clear:both;
 	width: 1200px;
 	height: 25px;
-    background-color: rgba(252,251,243,0.7);
+    background-color: rgba(252, 251, 243, 0.541);
     border-radius: 5em;
+    box-shadow: 5px 10px darkgrey;
 	margin: 0 auto;
 }
 
@@ -245,7 +246,7 @@ p {
 
 .footer ul li {
     display: inline-block;
-    text-deecoration: none;
+    text-decoration: none;
     padding: 0 0.7em 0 0;
     margin: 0;
 }
