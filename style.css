@@ -6,7 +6,8 @@ html, body {
 body {
     font-size: 67.5%;
     font-family: Arial, sans-serif;
-    background: rgba(71, 57, 57, 0.521) no-repeat fixed top center;
+    background-color: rgba(71, 57, 57, 0.521) no-repeat fixed top center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRz2WZPL0M_tAUo_odBak5IMz1rIuefsDqCRznGtOSM0j9CNYFw");
     padding: 0;
     margin: 0;
     -webkit-background-size: 100% 100%;
@@ -16,7 +17,7 @@ body {
 }
 
 header {
-    background-color: rgb(77, 224, 187);
+
     background-size: cover;
     height: 250px;
     margin: 0 auto;
@@ -42,13 +43,21 @@ nav ul li {
     padding: 0 10px;
 }
 
+a:visited {
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
 .social {
     float: right;
 }
 
-h1 {
-    font-size: 60px;
-    font-family: Verdana, Semibold, sans-serif;
+.logo h1 {
+    font-size: 75px;
+    font-family: Freestyle script;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -59,6 +68,12 @@ h5 {
     font-family: Verdana, Semibold, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+p {
+    font-size: 15px;
+    color: black;
+    text-align: center;
 }
 
 .logo {
@@ -81,34 +96,94 @@ h5 {
     position: relative;
     width: 30%;
     height: 100%;
+    background-color: rgba(252,251,243,0.7);
+	margin: 0px;
+    padding: 10px;
+    border-radius: 5em;
+    box-shadow: 5px 10px darkgrey;
 }
 
 .sidebars h2{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 30px;
     text-transform: uppercase;
 }
 
 .waitlist {
-    background-color: red;
-    padding: 10px;
+    border-radius: 5em;
+    padding: 1px 18px 18px 18px;
 }
 
+.input {
+    display: flex;
+    text-align: center;
+  }
+
+  .button {
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    margin-left: 15px;
+  } 
+
+  .hidden {
+      display:none;
+  }
+
+  .button:hover {
+    background: darkgray;
+  }
+
+  #email:hover {
+    background: white;
+  }
+
 .blog {
-    background-color: green;
+    border-radius: 5em;
+    padding: 1px 18px 18px 18px;
+    margin-top: 20px;
 }
 
 .puppies {
     float: right; 
     position: relative;
-    width: 70%;
+    width: 65%;
     height: 100%;
+    background-color: rgba(252,251,243,0.7);
+	margin: 0 0 2.0em;
+	padding: 1.5em  0 2.0em 1.5em;
+	display: inline-block;
+	border-radius: 5em;
+    box-shadow: 5px 10px darkgrey;
+}
+
+.puppies h1 {
+    font-size: 65px;
+    margin: 0;
+}
+
+.puppygroup {
+	float: left;
+	position: relative;
+	width: 250px;
+	margin: 0 0.5em 2.0em 0.5em;
+	padding: 1.0em;
+	background-color: black;
+	border: #ccc solid 1px;
+	border-radius: 0.6em;
+}
+.puppyGroup img.puppyType {
+    width: 180px;
+    border-radius: 50em;
+    height: 220px;
 }
 
 .puppies h1 {
     text-align: center;
-    color: white;
+    color: black;
+    padding: 20px;
 }
 
 .main {
@@ -120,4 +195,67 @@ h5 {
     width: 100%;
     padding: 10px;
     display: inline;
+}
+
+.puppyGroup h2 {
+    font-size: 35px;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+.goldendoodle {
+    display: inline-block;
+    padding: 5px 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.aussiedoodle {
+    display: inline-block;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.bernedoodle {
+    display: inline-block;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.footer {
+	font-size: 1.2em;
+	color: black;
+	text-align: center;
+	padding: 1.5em 5em;
+    clear:both;
+	width: 1200px;
+	height: 25px;
+    background-color: rgba(252,251,243,0.7);
+    border-radius: 5em;
+	margin: 0 auto;
+}
+
+.footer ul#websiteFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    text-deecoration: none;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+.footer ul li::before {
+	content: "| ";
+	padding-right: 0.7em;
+}
+
+.footer a:hover {
+    color: black;
+    text-decoration: bold;
 }
